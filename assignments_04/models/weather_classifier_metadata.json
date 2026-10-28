@@ -1,0 +1,17 @@
+{
+    "python_version": "3.12.10",
+    "scikit_learn_version": "1.9.1",
+    "model_type": "KNeighborsClassifier",
+    "features": [
+        "temperature_2m_max",
+        "temperature_2m_min",
+        "precipitation_sum",
+        "wind_speed_10m_max"
+    ],
+    "label_rule": {
+        "good_for_running": "1 if maximum temperature is between 7 and 26 degrees C (inclusive), minimum temperature is at least 0 degrees C, precipitation is under 3 mm, and maximum wind speed is under 30 km/h; otherwise 0."
+    },
+    "city": "Bishkek, Kyrgyzstan",
+    "test_accuracy": 0.863013698630137,
+    "test_f1": 0.8
+}
