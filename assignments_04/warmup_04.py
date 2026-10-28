@@ -73,7 +73,7 @@ def test_parse_temperature_bad_input_raises():
     with pytest.raises(ValueError, match="temperature"):
         parse_temperature("hot")
 
-
+# Without match="temperature", pytest.raises(ValueError) would accept any ValueError and would not check that the error message mentions temperature
 
 
 

@@ -86,5 +86,4 @@ def test_missing_model_file_raises(tmp_path):
 
 
 
-
-# def test_good_day_predicted_good failed 
+# The first test to react and fail the change was def test_good_day_predicted_good.
