@@ -1,0 +1,93 @@
+Cloud Concepts Question 1
+
+The core economic model of cloud computing is renting computing resources instead of buying and maintaining your own servers, which requires a large upfront investment. With cloud computing, you pay for the resources you actually use. For example, you can pay for more storage or computing power when your project grows and reduce your costs when you need less.
+
+
+Cloud Concepts Question 2
+Vertical scaling means making one machine more powerful, while horizontal scaling means adding more machines and splitting the work between them. For example, if a data scientist's model is running too slowly, they might upgrade to a machine with a faster GPU and more RAM (vertical scaling). If an app suddenly becomes viral and needs to handle much more traffic, adding more machines can help distribute the load (horizontal scaling).
+
+- Horizontal scaling
+- Vertical scaling
+- Horizontal scaling
+
+
+Cloud Concepts Question 3
+
+Gmail - SaaS: It's an application built and maintained by someone else that users can access without managing servers.
+
+Azure Virtual Machines - IaaS: It provides virtual machines, but the user is responsible for managing the operating system and software.
+
+AWS S3 (Simple Storage Service) - IaaS: It provides cloud storage, so developers don't need to own physical storage infrastructure.
+
+GitHub Codespaces - PaaS: It provides a managed cloud development environment without requiring developers to set up and maintain the underlying machines.
+
+Snowflake - SaaS: It provides a managed data platform that users can access without managing its underlying infrastructure.
+
+Supabase - BaaS: It provides application-level services like databases, authentication, and real-time subscriptions through APIs.
+
+IaaS gives you basic computing resources, such as virtual machines or storage, and you manage things like the operating system and installed software yourself (example: Azure Virtual Machines).
+PaaS provides a platform where you bring your own code while the provider manages the infrastructure, deployment environment, and underlying machines (example: GitHub Codespaces).
+SaaS is an application that someone else builds, runs, and maintains. You simply use it without worrying about the infrastructure (example: Gmail).
+PaaS - provider manages the infrastructure and you bring your own code; deploy app while platform handles running, scaling, keeping the underlying machine healthy 
+BaaS - gives application-level primitives like databases, authentification, realtime subscriptions pre-wired and accessible via API (ex: Firabase)
+
+
+Cloud Concepts Question 4
+A managed data platform like Databricks or Snowflake provides specialized tools for working with data without requiring developers to build and manage all the infrastructure themselves. Compared with using AWS or GCP directly, you gain easier setup and data-focused features, but give up some control over the underlying infrastructure and may become more dependent on that platform.
+
+
+Cloud Concepts Question 5
+If your dataset fits comfortably on a single machine and you do not have massive compute demands, local processing is often faster and cheaper. This is often the best approach when setting up an initial prototype.
+
+
+Part 2: Warmup — Cloud Landscape
+
+Cloud Landscape Question 1
+
+Amazon Web Services (AWS): AWS has the largest range of cloud services and is often used by enterprises, startups, and organizations that need flexible infrastructure.
+
+Google Cloud Platform (GCP): GCP is especially strong in data analytics and machine learning, so it's a good choice for organizations working with large amounts of data.
+
+Microsoft Azure: Azure works especially well with Microsoft products and is widely used by large companies and government organizations that already use Microsoft services.
+
+
+Cloud Landscape Question 2
+Access: Supabase is easier to start using because anyone can create an account, while Azure may require organizational access and additional setup.
+
+Pedagogical fit: Supabase uses relational databases, which gives students practice with tables and queries — skills that are useful in many data jobs.
+
+Pipeline coherence: Supabase makes it easy to organize the raw and enriched data into separate tables and check each stage of the pipeline.
+
+Reflection: When starting a project, I should consider not only the features of a cloud tool but also how easy it is to access, learn, and use for the actual project requirements.
+
+
+Cloud Landscape Question 3
+
+1. Object storage — AWS S3: It stores large amounts of files, such as images, and lets you access them from different machines.
+
+2. GPU computing — Azure Virtual Machines: You can rent a machine with a GPU for a training job and shut it down when you're finished.
+
+3. Serverless compute — AWS Lambda: It runs code when needed and automatically handles changes in traffic without requiring you to manage servers.
+
+4. LLM API — OpenAI API: It accepts structured input and returns a response generated by a large language model.
+
+
+Cloud Landscape Question 4
+
+I could build a small application that collects information from users, stores it, and uses AI to summarize the data. I could use Supabase for the application database, Google BigQuery for analytics, and the OpenAI API for generating summaries.
+
+Using one provider could make a project easier to manage because the services may integrate better and billing is more centralized. However, I might give up access to tools that are better suited for specific tasks from other providers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
